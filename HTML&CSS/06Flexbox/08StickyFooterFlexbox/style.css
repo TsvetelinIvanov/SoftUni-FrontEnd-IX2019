@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    padding: 0;
+    margin:0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+header, main {
+    padding: 1rem 3rem;
+}
+
+header {
+    border-bottom: 0.2em solid black;
+}
+
+main {
+    margin: 1em 0;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);  
+    padding: 0.5rem 3rem;  
+}
+
+h1, h2, p {
+    padding: 0.5em 0;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}

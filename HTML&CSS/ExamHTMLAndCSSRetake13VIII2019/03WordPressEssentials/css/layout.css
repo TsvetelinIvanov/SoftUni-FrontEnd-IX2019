@@ -1,0 +1,299 @@
+.wrapper {    
+    color: rgb(35, 68, 101);    
+    /* This in comments below don't work!     */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC52wNACPcU_VjrfLyZauuwJmLfMolZ_--iqKCFZgAU38KlSG2Uw&s");
+    background-repeat: no-repeat;
+    background-position: left top; */
+    /* background: url(images/wordpress.png) no-repeat top center; */
+    /* background-image: url("images/wordpress.png");
+    background-repeat: no-repeat;
+    background-position: left top;     */
+}
+
+.training-icon {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    opacity: 0.5;
+    z-index: -1;
+    width: 40%;
+    /* -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg); */
+    transform: rotate(20deg);
+}
+
+div.wrapper button {
+    width: 25rem;
+    font-size: 1.4em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+    color: white;
+    background: #234465 url(https://softuni.bg/Content/images/trainings/details-background.png) no-repeat top center;;
+    /* background-image: url(https://softuni.bg/Content/images/trainings/details-background.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(35, 68, 101);
+    background-size: cover;
+    z-index: 0; */
+    opacity: 0.8;
+}
+
+.title ul {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.title ul li + li{
+    margin-left: 1em;
+}
+
+.title ul li i{
+    font-size: 2em;
+}
+
+.course-info {
+    margin: 4em 10% 2em;   
+    padding: 2em 4em; 
+    background-color: rgb(242, 242, 242);
+}
+
+.course-info > h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.course-info > h2::after {
+    content: "";
+    display: block;
+    width: 4.4em;
+    height: 0.2em;
+    margin: 0 auto;
+    background-color: #ffa000;
+}
+
+.course-info > p {    
+    margin-bottom: 2em;
+}
+
+.skills {
+    margin: 0 10% 2em;   
+    padding: 2em 4em; 
+    background-color: rgb(242, 242, 242);
+}
+
+.skills > h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.skills > h2::after {
+    content: "";
+    display: block;
+    width: 15.8em;
+    height: 0.2em;
+    margin: 0 auto;
+    background-color: #ffa000;
+}
+
+.skills > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills > ul > li {
+    flex-basis: 50%;   
+    padding-bottom: 0.5em;
+    font-size: 1.1em; 
+    color: rgb(86, 86, 86);    
+}
+
+.skills > ul > li > i {    
+    font-size: 1.5em;
+    color: #ffa000;    
+}
+
+.themes {
+    margin: 0 10% 2em;   
+    padding: 2em 2em 3em; 
+    background-color: rgb(242, 242, 242);
+}
+
+.themes > h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.themes > h2::after {
+    content: "";
+    display: block;
+    width: 2.3em;
+    height: 0.2em;
+    margin: 0 auto;
+    background-color: #ffa000;
+}
+
+.themes > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.themes > ul > li {
+    flex-basis: calc(50% - 1em);   
+    margin-bottom: 1em;
+    padding: 0.5em;     
+    font-weight: bold;
+    color: rgb(86, 86, 86);
+    background-color: rgb(218, 218, 218);
+    border-left: 0.2em solid rgb(35, 68, 101);;
+}
+
+.themes > ul > li:nth-child(odd) {
+    margin-right: 2em;
+}
+
+.themes > ul > li > span {
+    margin-left: 0.5em;
+    margin-right: 1em;    
+    color: rgb(35, 68, 101);
+}
+
+.themes > ul > li:nth-child(10) > span,
+.themes > ul > li:nth-child(11) > span,
+.themes > ul > li:nth-child(12) > span,
+.themes > ul > li:nth-child(13) > span,
+.themes > ul > li:nth-child(14) > span {
+    margin-right: calc(1em - 1ch);    
+}
+
+.target {
+    display: block;
+    margin: 0 10% 2em;   
+    padding: 1em 2em 1em; 
+    color: white;
+    background-color: #ffa000;
+}
+
+.target > h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.target > h2::after {
+    content: "";
+    display: block;
+    width: 15.5em;
+    height: 0.2em;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.course-schedule {    
+    margin: 0 10% 2em;   
+    padding: 1em 1em 0; 
+    background-color: rgb(242, 242, 242);
+}
+
+.course-schedule > h3 {
+    padding-left: 1rem;
+    color: #ffa000;
+}
+
+.course-schedule > p {
+    padding: 0 1rem 1rem 1rem;    
+}
+
+.lerning-types {    
+    position: relative;
+    margin-top: 1em;
+    top: 0.3em;
+    box-shadow: 0.5em 0.5em 1em 0 rgba(0, 0, 0, 0.5);
+}
+
+.lerning-types > div {
+    display: flex;
+    color: white;    
+}
+
+.lerning-types > div > h3 {    
+    padding: 0.5em 8em 0 0.5em;
+}
+
+.lerning-types > div:last-child > h3 {    
+    padding-right: 11.45em;
+}
+
+.lerning-types > div > ul {
+    list-style-type: disc;
+    padding: 0.8em;
+}
+
+.lerning-types > div:first-child {
+    background-color: rgb(35, 68, 101);
+}
+
+.lerning-types > div:last-child {
+    background-color: #ffa000;
+}
+
+.lecturer {
+    margin: 0 10% 2em;   
+    padding: 2em 2em 3em; 
+    background-color: rgb(242, 242, 242);
+}
+
+.lecturer > h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.lecturer > h2::after {
+    content: "";
+    display: block;
+    width: 7.5em;
+    height: 0.2em;
+    margin: 0 auto;
+    background-color: #ffa000;
+}
+
+.card {
+    display: flex;
+}
+
+.card-media {
+    flex-basis: 20%;
+    display: flex;
+}
+
+.card-media > img {
+    width: 8em;
+    height: 8em;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.card-content {
+    flex-basis: 80%;    
+}
+
+.card-name {
+    margin-bottom: 0.4em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card-description {
+    color: rgb(86, 86, 86);
+}

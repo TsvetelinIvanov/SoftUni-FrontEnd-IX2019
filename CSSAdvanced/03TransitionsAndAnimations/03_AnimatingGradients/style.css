@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    height: 90vh;
+}
+
+div {
+    position: relative;
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+}
+
+div:not(:focus)::after {
+    animation: show-background 0.5s 0s 1 cubic-bezier(0.0, 0.0, 1.0, 1.0) forwards;      
+}
+
+@keyframes show-background {
+    from  {
+        opacity: 0;        
+    }
+    
+    to {  
+      opacity: 1;                  
+    }
+}
+
+div:hover::after {
+    animation: hide-background 0.5s 0s 1 cubic-bezier(0.0, 0.0, 1.0, 1.0) forwards;      
+}
+
+@keyframes hide-background {
+    from  {
+        opacity: 1;        
+    }
+    
+    to {  
+      opacity: 0;                  
+    }
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(201, 133, 50), rgb(252, 201, 136));
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(132, 149, 160), rgb(231, 236, 237));
+}

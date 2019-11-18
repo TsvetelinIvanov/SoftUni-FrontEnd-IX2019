@@ -1,0 +1,23 @@
+.site-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav li {
+    display: block;
+    list-style: none outside;    
+}
+
+.site-nav a {
+    display: block;
+    color: #444;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.5em 1em; 
+    transition: color 0.2s ease-in;   
+}
+
+.site-nav a:hover,
+.site-nav li.current-page a {
+    color: #3498db;
+}

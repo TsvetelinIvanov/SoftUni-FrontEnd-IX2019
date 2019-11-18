@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    
+}
+
+section.container ul {    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 30%;    
+}
+
+section.container ul li {
+    display: flex;
+    list-style: none;
+    overflow: hidden;    
+    flex: 0 0 10em;
+    background-color: black;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
+    margin: 1em;
+}
+
+section.container ul li img {
+    border-radius: 0.5em;
+    
+}
+
+section.container ul li:nth-child(2) {
+    justify-content: center;
+    flex: 0 0 40em;
+}

@@ -1,0 +1,83 @@
+footer {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.8em;
+}
+
+footer p {    
+    text-align: center;
+}
+
+footer > p {
+    padding: 2em;    
+}
+
+footer > section {
+    display: flex;
+    width: 70%;    
+    margin: 0 auto;
+    padding: 3rem;    
+}
+
+footer > section > article:first-child {
+    display: flex;    
+    padding-bottom: 1em;
+    border-bottom: 0.1em solid whitesmoke;
+}
+
+footer article ul {
+    list-style-type: none;  
+    width: 31%;  
+    padding: 1.5em;
+    line-height: 1;
+}
+
+footer article ul:last-child {    
+    padding-right: 1em;    
+}
+
+footer article ul li {
+    padding: 0.3em 0;
+    text-align: center;   
+}
+
+footer article span {    
+    display: inline-block;
+    width: 1em;   
+    height: 1em;
+    margin-right: 0.5em;
+    border: 0.1em solid whitesmoke;
+    border-radius: 50%;
+}
+
+footer article span:nth-child(2) {
+    width: 1.2em;   
+    height: 1.2em;
+    background-color: whitesmoke;
+}
+
+footer article:last-child {
+    padding-right: 10%;
+}
+
+footer article:nth-child(2) p {
+    padding-top: 1.1em;    
+}
+
+footer article:last-child p {
+    padding-top: 2em;
+    
+}
+
+footer article:last-child input {
+    padding: 0.5em;
+    width: 80%;
+}
+
+footer article:last-child button {
+    margin: 1em 0;
+    padding: 0.5em;
+    background-color: rgb(250, 91, 61);
+    color: whitesmoke;
+    border: none;
+}

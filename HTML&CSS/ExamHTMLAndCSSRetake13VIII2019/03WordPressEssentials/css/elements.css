@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    display: block;
+    line-height: 1;    
+    padding: 0.6em 1.6em;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #ffa000;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}

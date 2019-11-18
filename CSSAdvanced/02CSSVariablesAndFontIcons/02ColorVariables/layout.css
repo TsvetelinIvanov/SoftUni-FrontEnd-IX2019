@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;    
+}
+
+body, section, ul {
+    font: inherit;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+section {
+    width: 70%;
+    margin: 3em auto;
+    padding: 0.5em 2em 1em;
+    border: 0.15em solid var(--opposite-color);
+    border-radius: 0.4em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    flex-basis: 30%;
+}
+
+h1, p {
+    margin: 1em 0;
+}
+
+button {
+    margin: 1em 0;
+    padding: 0.8em 1.5em;
+    font-weight: bold;
+    color: var(--background-color);
+    background-color: var(--opposite-color);
+    border: none;
+    border-radius: 0.3em;
+}
+
+button:hover {
+    color: var(--opposite-color);
+    background-color: var(--primary-color);
+}

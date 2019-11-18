@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    height: 90vh;
+}
+
+div {
+    position: relative;
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(201, 133, 50), rgb(252, 201, 136));
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(132, 149, 160), rgb(231, 236, 237));
+    transition: opacity 0.6s linear;
+}
+
+div:hover::after {
+    opacity: 0;    
+}

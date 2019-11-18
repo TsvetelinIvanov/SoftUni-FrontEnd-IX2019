@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: rgb(221, 221, 221);
+}
+
+body {
+    max-width: 100%;
+    margin: 3em auto;
+    padding: 1em;
+}
+
+ul.gallery {
+    list-style: none;
+    margin: 3em auto;  
+}
+
+ul.gallery > li {
+    display: inline-block;
+    border: 0.4rem solid black;
+    padding: 1em;       
+    vertical-align: middle;    
+    margin: 1em;
+    width: 20%;
+}
+
+ul.gallery > li > img {
+    display: inline-block;   
+    max-width: 100%;   
+}

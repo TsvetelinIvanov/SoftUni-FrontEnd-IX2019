@@ -1,0 +1,121 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+section, article {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3, p {
+    margin: 1rem 0;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 10%;
+}
+
+div.page header {    
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 0.2em solid black;
+    margin-bottom: 2rem;
+}
+
+div.page main {
+    flex: 1 0 75%;   
+    padding-right: 5em; 
+}
+
+div.page blockquote {
+    font-style: italic;
+    border-left: 0.3em solid #bbb;
+}
+
+div.page img {
+    background-color: rgb(255, 255, 255);
+    border: 0.2em solid black;
+    padding: 0.5em;
+    box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.25);
+}
+
+div.page aside {
+    flex: 1 0 25%;    
+}
+
+div.page aside ul {
+    padding: 0.5rem 1rem;
+}
+
+div.page aside li {
+    list-style: square;
+    list-style-position: inside;
+}
+
+div.page aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+div.page header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+div.page section img {
+    float: right;
+    margin-left: 1em;
+}
+
+div.page article img {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+div.page section.blockquote {
+    display: flex;
+}
+
+div.page section.blockquote p, blockquote {    
+    margin: 0;
+}
+
+div.page section.blockquote blockquote {
+    flex: 1 0 calc(50% - 1.5em);
+    order: 2;
+    margin-left: 1.5em;
+    padding-left: 2em;
+}
+
+div.page section.blockquote blockquote p:last-child {
+    text-align: right;
+    padding: 1em 0;
+}

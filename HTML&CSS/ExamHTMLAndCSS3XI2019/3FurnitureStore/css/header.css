@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 3em;
+    font-size: 1.2em; 
+    background-color: rgb(249, 55, 0);
+    color: white;
+}
+
+header nav ul {    
+    display: flex;       
+}
+
+header nav ul li + li {
+    padding-left: 1em;
+}
+
+header nav ul a {
+    color: white;
+}
+
+.fa-search {
+    padding: 0.85em 1.5em;
+    background-color: rgb(182, 175, 175);
+}
+
+.search {
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+.search > input {
+    flex-basis: 90%;
+    padding: 0.5em 1em;
+    
+}
+
+.my-account p {
+    display: inline-block;
+    padding-left: 1em;
+}
+
+.my-account a {
+    color: white;
+}

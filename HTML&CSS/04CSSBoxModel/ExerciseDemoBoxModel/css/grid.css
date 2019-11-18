@@ -1,0 +1,19 @@
+.grid li {
+    display: inline-block;
+    background-color: #666;
+    color: lavender;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+
+.grid.columns-c2 li {
+    width: 48%;
+}
+
+.grid.columns-c3 li {
+    width: 31%;
+}
+
+.grid.columns-c4 li {
+    width: 24%;
+}

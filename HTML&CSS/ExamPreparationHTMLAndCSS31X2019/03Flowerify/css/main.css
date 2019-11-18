@@ -1,0 +1,84 @@
+.main-title {
+    padding: 2.3em;
+    text-align: center;
+    color: white;
+    background: url("../img/residential-banner-2.jpg") no-repeat center;
+}
+
+.main-title h1 {
+    font-size: 2.9em;
+}
+
+.main-title h1:first-child {
+    padding-top: 1em;
+}
+
+.main-title p {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.main-title p:last-child {
+    padding-bottom: 8em;
+}
+
+.main-conetnt h4 {
+    text-align: center;
+}
+
+.main-conetnt ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 0.5em;
+    color: gray;
+}
+
+.main-conetnt ul li {
+    width: 15%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.main-conetnt ul li h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.main-conetnt ul li h2:first-child {
+    font-size: 2.5em;
+}
+
+.main-conetnt ul li h2:first-child::before, 
+.main-conetnt ul li h2:first-child::after {
+    content: "";
+    display: block;
+    height: 0.1rem;
+    width: 1rem;
+    margin: 0.5rem;
+    background-color: gray;
+}
+
+.main-images {
+    margin-top: 2em;
+    background-color: rgb(237, 237, 237);
+}
+
+.main-images ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 2.5em 0;
+}
+
+.main-images ul li {
+    margin: 0.2em;
+    width: 20%;
+}
+
+.main-images ul li img {
+    width: 100%;
+    height: 100%;
+}

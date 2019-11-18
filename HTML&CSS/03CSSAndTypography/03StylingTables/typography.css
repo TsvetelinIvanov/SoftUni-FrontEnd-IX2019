@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px solid rgb(221, 221, 221);
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: rgb(221, 221, 221);
+}
+
+table tr:hover td {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+table tr:nth-child(odd) td {
+    background-color: rgb(241, 241, 241);
+}
+
+table tr:nth-child(odd):hover td{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}

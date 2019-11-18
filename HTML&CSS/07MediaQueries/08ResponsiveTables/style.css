@@ -1,0 +1,70 @@
+@import "reset.css";
+@import "typography.css";
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border: 0.1em solid rgb(180, 180, 180);
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 0.1em solid rgb(180, 180, 180);
+    width: 33%;
+    padding: 0.5em;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(211, 211, 211);
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+@media (max-width: 600px){    
+    thead {
+        display: none;
+    }    
+
+    /* tr {
+        display: flex;
+        flex-direction: column;               
+    }
+
+    td {        
+        width: 100%;
+    } */
+
+    td {
+        display: flex;        
+        width: 100%;
+    }
+
+    td:before {
+        font-weight: bold;
+        margin-right: 0.5em;
+    }
+
+    tr td:nth-child(1):before {
+        content: "First Name:";
+    }
+
+    tr td:nth-child(2):before {
+        content: "Last Name:";
+    }
+
+    tr td:nth-child(3):before {
+        content: "Job Title:";
+    }
+}

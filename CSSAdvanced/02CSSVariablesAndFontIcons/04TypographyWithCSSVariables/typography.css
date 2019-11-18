@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;    
+}
+
+body, article, header, section {
+    font: inherit;    
+}
+
+article {
+    margin-bottom: 2rem;    
+    padding-left: 2rem;    
+}
+
+h1, h2, p, ul {
+    margin-bottom: 1.5rem;
+}
+
+header {
+    margin: 2em 0 1.5em;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+ul {
+    padding-left: 2em;
+    list-style-position: inside;
+}
+
+@media (min-width: 500px) {
+    html {
+        font-size: var(--font-size-tablet);
+    }
+}
+
+@media (min-width: 700px) {
+    html {
+        font-size: var(--font-size-laptop);
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: var(--font-size-desctop);
+    }
+}

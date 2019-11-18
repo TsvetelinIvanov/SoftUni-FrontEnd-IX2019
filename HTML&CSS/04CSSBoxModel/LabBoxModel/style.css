@@ -1,0 +1,19 @@
+.site {
+    width: 800px;
+    margin: auto;
+    background: #090;
+    border: 2px solid red;    
+}
+
+.panel {
+    display: inline-block;
+    width: 60%;
+    background: #00f;
+}
+
+.side {
+    display: inline-block;
+    width: 39.5%;
+    background: yellow;
+    vertical-align: top;
+}

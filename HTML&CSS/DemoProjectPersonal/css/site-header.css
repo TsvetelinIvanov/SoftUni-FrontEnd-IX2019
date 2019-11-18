@@ -1,0 +1,51 @@
+.site-header .site-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.site-title {
+    padding: 0;
+    font-weight: 500;
+}
+
+.site-media {    
+    height: 75vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-media::before {
+    display: block;
+    content: "";
+    background-color: rgba(19, 41, 48, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.site-media .site-wrapper {
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 10;
+    padding-right: 5em;
+}
+
+.site-media h2 {
+    font-weight: 600;
+}
+
+.site-media p {
+    font-weight: 400;
+    opacity: 0.8;
+}

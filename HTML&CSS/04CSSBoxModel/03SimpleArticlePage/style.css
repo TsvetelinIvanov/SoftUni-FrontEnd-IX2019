@@ -1,0 +1,23 @@
+html { 
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+body {
+    background: rgb(238, 238, 238);
+    color: inherit;
+}
+
+article {
+    padding: 0 20%;
+    margin: auto;
+}
+
+figure {
+    margin-left: 0;
+}
+
+img {
+    max-width: 20em;
+    max-height: 30em;    
+}

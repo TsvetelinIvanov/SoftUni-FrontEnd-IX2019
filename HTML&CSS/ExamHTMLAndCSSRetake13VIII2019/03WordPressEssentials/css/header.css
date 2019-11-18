@@ -1,0 +1,51 @@
+.site > header > div {
+    padding: 0 10%;
+}
+
+.site > header > div:first-child {  
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;   
+    background-color: #234465;
+}
+
+.site > header > div:first-child > .logo,
+.site > header > div:first-child > nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+.site > header > div:first-child > .logo > a > img {
+   margin: 0.5em 0;
+}
+
+.site > header > div:first-child > nav > ul > li {
+    font-weight: bold;    
+}
+
+.site > header > div:first-child > nav > ul > li > a {
+    color: rgb(145, 161, 178);
+}
+
+.site > header > div:first-child > nav > ul > li + li {
+    margin-left: 1em;
+}
+
+.site > header > div:first-child > nav > ul > li:nth-child(4) {
+    font-size: 1.5em;    
+}
+
+.site > header > div:first-child > .logo > button {
+    margin-left: 1em;
+}
+
+.site > header > div:last-child {
+    display: flex;   
+    padding-top: 1em;   
+    padding-bottom: 1em;   
+}
+
+.site > header > div:last-child > p:first-child {
+    margin-right: 2em; 
+    color: rgb(205, 133, 0);
+}
