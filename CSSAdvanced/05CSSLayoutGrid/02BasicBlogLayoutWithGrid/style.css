@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5em;
+    padding: 1.2em;
+    font-size: 14px;
+}
+
+header, main, div.sidebar, footer {
+    padding: 1.5em 2em;
+    color: white;
+    background-color: black;
+}
+
+header, footer {
+    grid-column: 1 / 5;
+}
+
+main {
+    grid-column: 1 / 4;
+}
+
+div.sidebar {
+    grid-column-start: 4;
+}
