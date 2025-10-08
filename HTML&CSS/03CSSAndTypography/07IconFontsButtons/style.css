@@ -6,17 +6,17 @@ html {
     padding: 3em;
 }
 
+a {    
+    padding: 0.5em;
+    border-radius: 5px;     
+    text-decoration: none;
+    color: white;
+}
+
 .green {   
     background-color: green;   
 }
 
 .orange {    
     background-color: orange;    
-}
-
-a {    
-    padding: 0.5em;
-    border-radius: 5px;     
-    text-decoration: none;
-    color: white;
 }
