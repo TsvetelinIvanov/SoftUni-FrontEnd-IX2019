@@ -18,7 +18,7 @@ article {
     margin: 0 auto;
 }
 
-aside{
+aside {
     width: 20%;
     vertical-align: top;
     padding-top: 3em;    
@@ -33,10 +33,6 @@ img {
     max-height: 20em;
 }
 
-ul li {
-    list-style: square;
-}
-
 h1 {
     font-size: 3em;
 }
@@ -49,3 +45,6 @@ h3 {
     font-size: 2em;
 }
 
+ul li {
+    list-style: square;
+}
