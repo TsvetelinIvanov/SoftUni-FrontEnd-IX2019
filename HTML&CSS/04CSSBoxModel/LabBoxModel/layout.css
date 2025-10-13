@@ -3,20 +3,13 @@ body {
     margin: 0 auto;
 }
 
+.entry {
+    padding: 0 1.5em;
+}
+
 .site-branding {
     display: inline-block;
     width: 50%;
-}
-
-.site-header nav {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
-}
-
-.site-main {
-    display: inline-block;
-    width: 69%;
 }
 
 .site-sidebar {
@@ -25,6 +18,13 @@ body {
     vertical-align: top;
 }
 
-.entry {
-    padding: 0 1.5em;
+.site-main {
+    display: inline-block;
+    width: 69%;
+}
+
+.site-header nav {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
 }
