@@ -14,25 +14,12 @@ header {
     border-bottom: 3px solid black;
 }
 
-header p {
-    font-size: 3em;
-}
-
 h1 {
     font-size: 2.5em;
 }
 
 h2 {
     font-size: 2.3em;
-}
-
-blockquote {
-    font-style: italic;
-    border-left: 0.3em solid #bbb;
-    padding-left: 2em;    
-    margin-top: 0;
-    float: right;
-    width: 40%;
 }
 
 img {
@@ -44,8 +31,21 @@ img {
     box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.5);
 }
 
+blockquote {
+    font-style: italic;
+    border-left: 0.3em solid #bbb;
+    padding-left: 2em;    
+    margin-top: 0;
+    float: right;
+    width: 40%;
+}
+
 blockquote p:last-child {
     text-align: right;
+}
+
+header p {
+    font-size: 3em;
 }
 
 p.site-title {
