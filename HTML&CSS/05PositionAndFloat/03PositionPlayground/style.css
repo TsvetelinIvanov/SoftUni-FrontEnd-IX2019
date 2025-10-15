@@ -19,6 +19,15 @@ i {
     padding: 0.6em;
 }
 
+.card {
+    display: block;
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+    right: 35%;
+    width: 30%;            
+}
+
 .viewport {
     height: 140vh;    
     position: relative;
@@ -30,15 +39,6 @@ i {
 
 .viewport:last-child {
     background-image: linear-gradient(to right, purple, orange);
-}
-
-.card {
-    display: block;
-    position: absolute;
-    top: 35%;
-    bottom: 35%;
-    right: 35%;
-    width: 30%;            
 }
 
 .viewport:last-child .card {
