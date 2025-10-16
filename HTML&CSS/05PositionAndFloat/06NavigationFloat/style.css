@@ -28,10 +28,6 @@ section {
     margin-bottom: 3em;
 }
 
-body > header {
-    border-bottom: 0.2em solid black;
-}
-
 h1, h2, h3, blockquote {
     font-family: Georgia, serif;
 }
@@ -80,6 +76,10 @@ blockquote p:first-child {
 
 blockquote p:last-child {
     text-align: right;
+}
+
+body > header {
+    border-bottom: 0.2em solid black;
 }
 
 header p {
