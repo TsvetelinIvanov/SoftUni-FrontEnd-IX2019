@@ -34,16 +34,14 @@
 }
 
 
-/* Cleaner 
- */
+/* Cleaner */
 .cleaner:after {
     display: block;
     content: '';
     clear: both;
 }
 
-/* AR Box
-*/
+/* AR Box */
 .ar-box {
     display: block;
     background-color: #333;
