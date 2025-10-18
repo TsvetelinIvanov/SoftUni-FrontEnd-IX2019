@@ -21,13 +21,6 @@ span {
    border: 1px solid black;      
 }
 
-.notes {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 15%;
-    flex-wrap: wrap;
-}
-
 .week {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +37,13 @@ span {
 .weekdays {
     padding: 1rem 1.2rem 4.75rem;
     flex: 1 1 auto;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    flex-wrap: wrap;
 }
 
 .notes span {
