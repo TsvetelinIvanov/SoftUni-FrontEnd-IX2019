@@ -30,10 +30,6 @@ header, main, aside, footer {
     flex-basis: auto;
 }
 
-div.site-content {
-    display: flex;
-}
-
 header {
     height: 15vh;
 }
@@ -49,4 +45,8 @@ main {
 
 aside {
     flex-basis: 30vw;
+}
+
+div.site-content {
+    display: flex;
 }
