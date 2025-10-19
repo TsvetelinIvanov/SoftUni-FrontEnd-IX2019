@@ -36,6 +36,10 @@ h3 {
     font-size: 2em;
 }
 
+blockquote {
+    margin: 0;
+}
+
 div.page {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +108,7 @@ div.page section.blockquote {
     display: flex;
 }
 
-div.page section.blockquote p, blockquote {    
+div.page section.blockquote p {    
     margin: 0;
 }
 
