@@ -34,14 +34,6 @@ img {
     width: 18em;    
 }
 
-.masonry .card {
-    margin: 2em 1em;
-}
-
-.flex .card {
-    margin: 0.5em;
-}
-
 .cards-layout h2 {
     font-size: 3em;
     width: 100%;
@@ -59,4 +51,12 @@ img {
 .card div:last-child {
     flex: 1;
     border-top: 0.1em solid rgba(150, 150, 150, 0.5);    
+}
+
+.masonry .card {
+    margin: 2em 1em;
+}
+
+.flex .card {
+    margin: 0.5em;
 }
