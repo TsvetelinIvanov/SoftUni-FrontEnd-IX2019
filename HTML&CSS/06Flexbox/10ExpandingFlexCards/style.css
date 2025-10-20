@@ -9,8 +9,7 @@ section.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 40%;
-    
+    padding-left: 40%;    
 }
 
 section.container ul {    
@@ -32,8 +31,7 @@ section.container ul li {
 }
 
 section.container ul li img {
-    border-radius: 0.5em;
-    
+    border-radius: 0.5em;    
 }
 
 section.container ul li:nth-child(2) {
