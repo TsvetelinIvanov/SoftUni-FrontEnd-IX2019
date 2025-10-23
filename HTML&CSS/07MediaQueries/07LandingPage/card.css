@@ -1,8 +1,9 @@
-.card-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 1em;    
+.name, .description {
+    font-weight: bold;
+}
+
+.description, .comment {
+    font-style: italic;
 }
 
 .card {
@@ -13,12 +14,11 @@
     margin: 0.5em;    
 }
 
-.name, .description {
-    font-weight: bold;
-}
-
-.description, .comment {
-    font-style: italic;
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1em;    
 }
 
 .card p {
