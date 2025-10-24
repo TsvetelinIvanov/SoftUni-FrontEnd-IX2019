@@ -51,15 +51,15 @@ section header hr {
     border: none;
 }
 
+section.introduction header {
+    text-align: left;
+}
+
 .introduction img {    
     border: 1em solid black;
     border-radius: 50%;
     width: 100%; 
     height: auto;   
-}
-
-section.introduction header {
-    text-align: left;
 }
 
 @media (max-width: 600px) {
