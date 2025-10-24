@@ -32,7 +32,7 @@ tr:nth-child(even) {
     background-color: white;
 }
 
-@media (max-width: 600px){    
+@media (max-width: 600px) {    
     thead {
         display: none;
     }    
