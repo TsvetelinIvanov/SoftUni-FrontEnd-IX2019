@@ -27,7 +27,7 @@ p, ul, ol {
     line-height: 1;
 }
 
-@media(min-width: 85.71em) {
+@media (min-width: 85.71em) {
 
     .site {
         display: flex;
