@@ -13,22 +13,76 @@ body {
     line-height: 1.65;
     background: url(images/145573.jpg) no-repeat fixed center;
     background-size: cover;
+    background-color: #1e1f23;
+    padding-top: 8rem;
+}
+
+h2, h3 {
+    color: #1e1f23;
+}
+
+img {
+    position: relative;
+    margin: 0 !important;
+    display: block;
+    width: 100%;
+}
+
+footer {
+    color: #bbb;
+    font-size: 0.9rem;
+    margin: 0 0 2rem 0;
+    padding: 0 1rem;
+    text-align: center;
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: underline
+    color: #54a354;
 }
 
 a:hover {
     text-decoration: none;
 }
 
-a {
-    color: #54a354;
+header {
+    color: #a6a6a6;
+    text-align: center;
 }
 
-h2, h3 {
-    color: #1e1f23;
+header p {
+    position: relative;
+    color: #bbb;
+    font-size: 1.25rem;
+}
+
+header > .logo {
+    margin: 0 0 4rem 0;
+    padding: 0;
+}
+
+header > .logo a {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 1rem;
+}
+
+header > .logo span {
+    font-weight: 300;
+    font-size: 1rem;
+    display: block;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+main > .inner {
+    width: 80rem;
+    max-width: 90%;
+    margin: 0 auto 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
 }
 
 .gallery {
@@ -46,19 +100,6 @@ h2, h3 {
 
 .gallery > * {
     width: 50%;
-}
-
-img {
-    position: relative;
-    margin: 0 !important;
-    display: block;
-    width: 100%;
-}
-
-header p {
-    position: relative;
-    color: #bbb;
-    font-size: 1.25rem;
 }
 
 .spotlight {
@@ -100,45 +141,6 @@ header p {
 
 .spotlight.alt h3 {
     color: #FFF;
-}
-
-body {
-    background-color: #1e1f23;
-    padding-top: 8rem;
-}
-
-header {
-    color: #a6a6a6;
-    text-align: center;
-}
-
-header > .logo {
-    margin: 0 0 4rem 0;
-    padding: 0;
-}
-
-header > .logo a {
-    font-size: 4rem;
-    font-weight: 700;
-    color: #FFF;
-    text-decoration: none;
-    line-height: 1rem;
-}
-
-header > .logo span {
-    font-weight: 300;
-    font-size: 1rem;
-    display: block;
-    color: rgba(255, 255, 255, 0.65);
-}
-
-main > .inner {
-    width: 80rem;
-    max-width: 90%;
-    margin: 0 auto 2rem;
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
-    border-radius: 4px;
 }
 
 .wrapper > header {
@@ -191,22 +193,14 @@ main > .inner {
     border-radius: 4px 4px 0 0;
 }
 
+.wrapper.style2 header p {
+    color: rgba(255, 255, 255, 0.25);
+}
+
 .wrapper.style2 header h2 {
     color: #FFF;
 }
 
 .wrapper.style2 header h2:after {
     background-color: rgba(255, 255, 255, 0.125);
-}
-
-.wrapper.style2 header p {
-    color: rgba(255, 255, 255, 0.25);
-}
-
-footer {
-    color: #bbb;
-    font-size: 0.9rem;
-    margin: 0 0 2rem 0;
-    padding: 0 1rem;
-    text-align: center;
 }
