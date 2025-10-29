@@ -1,6 +1,11 @@
+div.wrapper button {
+    width: 25rem;
+    font-size: 1.4em;
+}
+
 .wrapper {    
     color: rgb(35, 68, 101);    
-    /* This in comments below don't work!     */
+    /* The code in comments below doesn't work!*/
     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC52wNACPcU_VjrfLyZauuwJmLfMolZ_--iqKCFZgAU38KlSG2Uw&s");
     background-repeat: no-repeat;
     background-position: left top; */
@@ -24,9 +29,34 @@
     transform: rotate(20deg);
 }
 
-div.wrapper button {
-    width: 25rem;
-    font-size: 1.4em;
+.card {
+    display: flex;
+}
+
+.card-content {
+    flex-basis: 80%;    
+}
+
+.card-name {
+    margin-bottom: 0.4em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card-description {
+    color: rgb(86, 86, 86);
+}
+
+.card-media {
+    flex-basis: 20%;
+    display: flex;
+}
+
+.card-media > img {
+    width: 8em;
+    height: 8em;
+    margin: auto;
+    border-radius: 50%;
 }
 
 .title {
@@ -266,34 +296,4 @@ div.wrapper button {
     height: 0.2em;
     margin: 0 auto;
     background-color: #ffa000;
-}
-
-.card {
-    display: flex;
-}
-
-.card-media {
-    flex-basis: 20%;
-    display: flex;
-}
-
-.card-media > img {
-    width: 8em;
-    height: 8em;
-    margin: auto;
-    border-radius: 50%;
-}
-
-.card-content {
-    flex-basis: 80%;    
-}
-
-.card-name {
-    margin-bottom: 0.4em;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.card-description {
-    color: rgb(86, 86, 86);
 }
