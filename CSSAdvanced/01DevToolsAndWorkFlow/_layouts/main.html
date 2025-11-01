@@ -15,8 +15,7 @@
                 <h1><a href="/">{{ site.title }}</a></h1>
                 <!-- <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1> -->
                 <p>{{ site.description }}</p>
-            </div>                         
-            
+            </div>            
             <nav class="nav">
                 <ul>
                     {% for page in site.pages %}
@@ -30,14 +29,11 @@
         </header>
         <main class="site-main">
                 <h1>{{ pag.title }}</h1>
-
                 {{ content }}
         </main>
         <footer class="site-footer">
             <p>{{ site.title }} &copy; All Rights Reserved</p>
         </footer>
-    </div>
-
-    
+    </div>    
 </body>
 </html>
