@@ -22,11 +22,6 @@ body {
     background-color: rgb(232, 234, 238);
 }
 
-div.content {
-    display: flex;
-    justify-content: center;  
-}
-
 a { 
     margin: 11px;     
     padding: 1em 3em;
@@ -40,4 +35,9 @@ a {
 
 a:hover { 
     outline-width: 15px; 
+}
+
+div.content {
+    display: flex;
+    justify-content: center;  
 }
