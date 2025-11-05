@@ -7,18 +7,18 @@ body {
     font-size: 14px;
 }
 
-header, main, div.sidebar, footer {
-    padding: 1.5em 2em;
-    color: white;
-    background-color: black;
-}
-
 header, footer {
     grid-column: 1 / 5;
 }
 
 main {
     grid-column: 1 / 4;
+}
+
+header, main, div.sidebar, footer {
+    padding: 1.5em 2em;
+    color: white;
+    background-color: black;
 }
 
 div.sidebar {
