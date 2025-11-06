@@ -11,12 +11,6 @@ body {
     font-size: 14px;
 }
 
-header, main, div.sidebar, footer {
-    padding: 1.5em 2em;
-    color: white;
-    background-color: black;
-}
-
 header {
     grid-area: header;
 }
@@ -25,12 +19,18 @@ main {
     grid-area: main;
 }
 
-div.sidebar {
-    grid-area: sidebar;
-}
-
 footer {
     grid-area: footer;
+}
+
+header, main, div.sidebar, footer {
+    padding: 1.5em 2em;
+    color: white;
+    background-color: black;
+}
+
+div.sidebar {
+    grid-area: sidebar;
 }
 
 @media (max-width: 1024px) {
