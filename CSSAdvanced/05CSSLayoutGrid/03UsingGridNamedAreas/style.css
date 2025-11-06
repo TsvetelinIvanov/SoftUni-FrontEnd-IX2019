@@ -11,12 +11,6 @@ body {
     font-size: 14px;
 }
 
-header, main, div.sidebar, footer {
-    padding: 1.5em 2em;
-    color: white;
-    background-color: black;
-}
-
 header {
     grid-area: header;
 }
@@ -31,4 +25,10 @@ div.sidebar {
 
 footer {
     grid-area: footer;
+}
+
+header, main, div.sidebar, footer {
+    padding: 1.5em 2em;
+    color: white;
+    background-color: black;
 }
